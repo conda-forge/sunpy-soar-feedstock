@@ -1,5 +1,5 @@
 {% set name = "sunpy-soar" %}
-{% set version = "1.2" %}
+{% set version = "1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ebf3547d419ddf5e15b2af8fbeb1ea4167bb43dcf8ee249ca3ecc47aba7e5ded
+  sha256: 7006b0873a452adc3eb3d53b9ac19bd7893eae1873d78af7643c969d923c7a24
 
 build:
   noarch: python
@@ -18,6 +18,7 @@ requirements:
   host:
     - python >=3.7
     - pip
+    - setuptools_scm
   run:
     - python >=3.7
     - sunpy >=2.1
