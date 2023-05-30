@@ -1,11 +1,11 @@
-About sunpy-soar
-================
+About sunpy-soar-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sunpy-soar-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dstansby/sunpy-soar
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sunpy-soar-feedstock/blob/main/LICENSE.txt)
 
 Summary: A sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR). 
 
