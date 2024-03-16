@@ -3,15 +3,15 @@ About sunpy-soar-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sunpy-soar-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/dstansby/sunpy-soar
+Home: https://github.com/sunpy/sunpy-soar
 
 Package license: BSD-2-Clause
 
 Summary: A sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR). 
 
-Development: https://github.com/dstansby/sunpy-soar
+Development: https://github.com/sunpy/sunpy-soar
 
-Documentation: https://github.com/dstansby/sunpy-soar/blob/main/README.rst
+Documentation: https://docs.sunpy.org/projects/soar/
 
 sunpy-soar is a sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR) via.
 the sunpy.net.Fido search interface.
@@ -103,7 +103,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -151,5 +151,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@dstansby](https://github.com/dstansby/)
+* [@cadair](https://github.com/cadair/)
+* [@hayesla](https://github.com/hayesla/)
+* [@wtbarnes](https://github.com/wtbarnes/)
 

@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -32,7 +32,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/dstansby/sunpy-soar
+  home: https://github.com/sunpy/sunpy-soar
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
@@ -40,9 +40,11 @@ about:
   description: |
     sunpy-soar is a sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR) via.
     the sunpy.net.Fido search interface.
-  doc_url: https://github.com/dstansby/sunpy-soar/blob/main/README.rst
-  dev_url: https://github.com/dstansby/sunpy-soar
+  doc_url: https://docs.sunpy.org/projects/soar/
+  dev_url: https://github.com/sunpy/sunpy-soar
 
 extra:
   recipe-maintainers:
-    - dstansby
+    - cadair
+    - hayesla
+    - wtbarnes
