@@ -40,8 +40,8 @@ about:
   description: |
     sunpy-soar is a sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR) via.
     the sunpy.net.Fido search interface.
-  doc_url: https://github.com/dstansby/sunpy-soar/blob/main/README.rst
-  dev_url: https://github.com/dstansby/sunpy-soar
+  doc_url: https://docs.sunpy.org/projects/soar/
+  dev_url: https://github.com/sunpy/sunpy-soar
 
 extra:
   recipe-maintainers:
