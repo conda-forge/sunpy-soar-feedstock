@@ -32,7 +32,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/dstansby/sunpy-soar
+  home: https://github.com/sunpy/sunpy-soar
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
