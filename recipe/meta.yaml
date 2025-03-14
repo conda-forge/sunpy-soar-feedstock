@@ -1,13 +1,13 @@
 {% set name = "sunpy-soar" %}
-{% set version = "1.10" %}
+{% set version = "1.11.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 86c95bbcef3cc486238b2362fe1819a02c1c2459d72287296c10086b406e675d
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 742ce16127c0b0ee80825e0a02790816299e096b332ea32c25a91e0f5677ed13
 
 build:
   noarch: python
