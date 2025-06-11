@@ -20,11 +20,12 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
     - setuptools_scm
   run:
     - python >={{ python_min }}
     - matplotlib-base >=3.6
-    - astropy >=5.3
+    - astropy-base >=5.3
     - sunpy >=6.0
     - requests >=2.28
 
