@@ -23,7 +23,7 @@ requirements:
     - setuptools_scm
   run:
     - python >={{ python_min }}
-    - sunpy >=6.1
+    - sunpy >=6.0
 
 test:
   imports:
