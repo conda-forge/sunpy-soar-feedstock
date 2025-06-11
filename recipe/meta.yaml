@@ -11,16 +11,16 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - setuptools_scm
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - sunpy >=2.1
 
 test:
@@ -28,6 +28,7 @@ test:
     - sunpy_soar
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
