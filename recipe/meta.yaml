@@ -1,7 +1,7 @@
 {% set name = "sunpy-soar" %}
 {% set version = "1.12.0" %}
 {% set sha256 = "14e59c7cb95c38a8b0fffb994c3254a9dbb85d74bb07ecd4877ac1e139924455" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -24,12 +24,14 @@ requirements:
     - setuptools_scm
   run:
     - python >={{ python_min }}
-    - matplotlib-base >=3.6
-    - astropy-base >=5.3
-    - sunpy >=6.0
-    - requests >=2.28
-
+    - astropy-base >=6.1
+    - sunpy >=7.0
+    - requests >=2.32
+    
 test:
+  requires:
+    - matplotlib-base >=3.8.0
+    - responses >=0.20.0
   imports:
     - sunpy_soar
   requires:
@@ -37,6 +39,7 @@ test:
     - python {{ python_min }}
   commands:
     - pip check
+    - pytest --pyargs sunpy_soar
 
 about:
   home: https://github.com/sunpy/sunpy-soar
