@@ -30,13 +30,12 @@ requirements:
     
 test:
   requires:
+    - python {{ python_min }}
+    - pip
     - matplotlib-base >=3.8.0
     - responses >=0.20.0
   imports:
     - sunpy_soar
-  requires:
-    - pip
-    - python {{ python_min }}
   commands:
     - pip check
     - pytest --pyargs sunpy_soar
