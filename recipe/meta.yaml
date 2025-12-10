@@ -1,6 +1,6 @@
 {% set name = "sunpy-soar" %}
-{% set version = "1.11.1" %}
-{% set sha256 = "742ce16127c0b0ee80825e0a02790816299e096b332ea32c25a91e0f5677ed13" %}
+{% set version = "1.12.0" %}
+{% set sha256 = "14e59c7cb95c38a8b0fffb994c3254a9dbb85d74bb07ecd4877ac1e139924455" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
